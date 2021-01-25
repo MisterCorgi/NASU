@@ -1,4 +1,4 @@
-CC=gcc
+CC=g++
 LIBS=$(shell pkg-config --libs sdl2)
 CFLAGS=$(shell pkg-config --cflags sdl2)
 SRCS=$(wildcard *.cpp);
